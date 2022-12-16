@@ -26,7 +26,7 @@ require (
 	golang.org/x/crypto v0.0.0-20220315160706-3147a52a75dd
 	golang.org/x/sync v0.1.0
 	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
-	golang.org/x/time v0.2.0
+	golang.org/x/time v0.3.0
 	google.golang.org/grpc v1.47.0
 	k8s.io/api v0.23.0
 	k8s.io/apimachinery v0.23.0
