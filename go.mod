@@ -31,7 +31,6 @@ require (
 	k8s.io/api v0.26.2
 	k8s.io/apimachinery v0.26.2
 	k8s.io/client-go v0.26.2
-	k8s.io/cri-api v0.25.7
 	oras.land/oras-go/v2 v2.0.0
 )
 
