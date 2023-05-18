@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/containerd/containerd v1.7.0
-	github.com/containerd/continuity v0.3.0
+	github.com/containerd/continuity v0.4.0
 	github.com/docker/cli v23.0.4+incompatible
 	github.com/docker/go-metrics v0.0.1
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
