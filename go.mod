@@ -7,7 +7,7 @@ go 1.20
 // in a release.
 require (
 	github.com/containerd/containerd v1.7.6
-	github.com/containerd/continuity v0.4.2
+	github.com/containerd/continuity v0.4.3
 	github.com/docker/cli v24.0.6+incompatible
 	github.com/docker/go-metrics v0.0.1
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
