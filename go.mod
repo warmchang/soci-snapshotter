@@ -27,7 +27,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	go.etcd.io/bbolt v1.3.7
 	golang.org/x/crypto v0.13.0
-	golang.org/x/sync v0.3.0
+	golang.org/x/sync v0.4.0
 	golang.org/x/sys v0.12.0
 	golang.org/x/time v0.3.0
 	google.golang.org/grpc v1.56.2
@@ -35,7 +35,7 @@ require (
 	k8s.io/apimachinery v0.26.3
 	k8s.io/client-go v0.26.3
 	k8s.io/cri-api v0.28.2
-	oras.land/oras-go/v2 v2.3.0
+	oras.land/oras-go/v2 v2.3.1
 )
 
 require (
