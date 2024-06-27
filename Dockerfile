@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-ARG CONTAINERD_VERSION=1.6.30
+ARG CONTAINERD_VERSION=1.6.33
 ARG RUNC_VERSION=1.1.12
 ARG NERDCTL_VERSION=1.7.1
 
@@ -27,6 +27,7 @@ ARG TARGETARCH
 COPY ./integ_entrypoint.sh /integ_entrypoint.sh
 COPY . $GOPATH/src/github.com/awslabs/soci-snapshotter
 ENV GOPROXY direct
+RUN apk update && apk upgrade
 RUN apk add --no-cache \
     btrfs-progs-libs \
     curl \
